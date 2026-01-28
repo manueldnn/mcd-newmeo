@@ -43,6 +43,11 @@
       "GlobalId": "69d6b6f9-7f8b-4b68-a821-722a9aa64d82",
       "TabPath": "//registration",
       "ContentPath": "Pages/registration/tab.xml"
+    },
+    {
+      "GlobalId": "939de918-1cd0-4ad9-a74e-44eedd8f46cc",
+      "TabPath": "//test",
+      "ContentPath": "Pages/test/tab.xml"
     }
   ],
   "Modules": [
@@ -135,6 +140,15 @@
       "PaneName": "ContentPane",
       "Order": 1,
       "ContentPath": "Pages/registration/Register Form.xml"
+    },
+    {
+      "GlobalId": "9aff612c-2019-4c7a-a87c-5f4746d0a8a2",
+      "ParentPageId": "939de918-1cd0-4ad9-a74e-44eedd8f46cc",
+      "ModuleTitle": "Enter Title",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/test/Enter Title.xml"
     }
   ],
   "TokenNamespaces": [
